@@ -1,10 +1,3 @@
-/*
-
-Victory HTML CSS Template
-
-https://templatemo.com/tm-507-victory
-
-*/
 
 * {
     margin: 0;
@@ -12,41 +5,14 @@ https://templatemo.com/tm-507-victory
     font-family: 'Roboto', arial, sans-serif;
 }
 
-/*body {
-	overflow-x: hidden;
-	background-color: #fff;
-}
-*/
-body {
 
-	/* Ubicación de la imagen */
-	
+body {
 	background-image: url(../img/Banners/banner-cg.jpg);
-	
-	/* Para dejar la imagen de fondo centrada, vertical y
-	
-	horizontalmente */
-	
 	background-position: center center;
-	
-	/* Para que la imagen de fondo no se repita */
-	
 	background-repeat: no-repeat;
-	
-	/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
-	
 	background-attachment: fixed;
-	
-	/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
-	
 	background-size: cover;
-	
-	/* Se muestra un color de fondo mientras se está cargando la imagen
-	
-	de fondo o si hay problemas para cargarla */
-	
 	background-color: black;
-	
 	}
 
 ul {
@@ -390,7 +356,11 @@ section#book-table .left-image img {
   /* Aquí pon el color del fondo que quieras para este lateral */
 	float:right; /* Aquí determinas
 	 de lado quieres quede esta "columna" */
-
+	 background-color: #3b3433;
+	 padding-left: 1%;
+	 padding-right: 1%;
+	 -moz-border-radius: 15px;
+	 -webkit-border-radius: 15px;
 	}
    
    #principal {
@@ -410,6 +380,7 @@ section#book-table .left-image img {
 	font-family: 'Spectral', serif;
 	font-size: 48px;
 	font-weight: 700;
+	padding-right: 3%;
 	
 	/*border:#000000 1px solid;*/ /* ponemos un donde para que se vea bonito */
    }
@@ -1348,7 +1319,9 @@ section.map #map {
 	.page-heading p {
 		padding: 0px 5%;
 
+		
 	}
+
 }
 
 @media (max-width: 768px) {
@@ -1463,6 +1436,8 @@ section.map #map {
 	.contact-info {
 		margin-top: 80px;
 	}
+
+
 }
 @media (max-width: 480px) {
 
